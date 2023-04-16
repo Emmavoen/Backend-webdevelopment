@@ -1,0 +1,16 @@
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\Second_Project.exe
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\Second_Project.deps.json
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\Second_Project.runtimeconfig.json
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\Second_Project.runtimeconfig.dev.json
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\Second_Project.dll
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\ref\Second_Project.dll
+C:\Users\user\PracticeFolder\First_Project\assignment2\bin\Debug\net5.0\Second_Project.pdb
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.csproj.AssemblyReference.cache
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.AssemblyInfoInputs.cache
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.AssemblyInfo.cs
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.csproj.CoreCompileInputs.cache
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.dll
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\ref\Second_Project.dll
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.pdb
+C:\Users\user\PracticeFolder\First_Project\assignment2\obj\Debug\net5.0\Second_Project.genruntimeconfig.cache

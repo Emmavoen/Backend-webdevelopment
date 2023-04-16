@@ -6,7 +6,7 @@ namespace Second_Project
     {
         static void Main(string[] args)
         {
-            int sum,div,sub,mul;
+            decimal sum,div,sub,mul;
             string option,str1,str;
              //const string a;
              //const string b;
@@ -20,10 +20,10 @@ namespace Second_Project
          for(int i = 1; i >= 1; i++)
          {   
          Console.WriteLine("Type a number, and then press Enter:");
-         var FirstNum = Convert.ToInt32(Console.ReadLine());
+         var FirstNum = Convert.ToDecimal(Console.ReadLine());
          
          Console.WriteLine("Type another number, and then press Enter:");
-         var SecondNum = Convert.ToInt32(Console.ReadLine());
+         var SecondNum = Convert.ToDecimal(Console.ReadLine());
 
          Console.WriteLine("Choose an operator from the following list");
 
@@ -34,23 +34,31 @@ namespace Second_Project
             switch (option)
             {   
                 case "a":
-                    sum = FirstNum + SecondNum;
+                    sum = Math.Round(FirstNum + SecondNum, 4);
                     Console.WriteLine("The sum is {0}" , sum);
                     break;
 
                 case "m":
-                    mul = FirstNum * SecondNum;
+                    mul = Math.Round(FirstNum * SecondNum, 4); 
                     Console.WriteLine("The product is " + mul);
                     break;
 
                 case "s":
-                    sub = FirstNum - SecondNum;
+                    sub = Math.Round(FirstNum - SecondNum, 4);
                     Console.WriteLine("The difference is " + sub);
                     break;
 
                 case "d":
-                    div = FirstNum / SecondNum;
+                   /* if (SecondNum == 0) 
+                         throw new DivideByZeroException("Cannot divide by a negative number");*/
+                    try {
+                    div = Math.Round(FirstNum / SecondNum, 4);
                     Console.WriteLine("The dividend is {0}" , div);
+                    }
+
+                    catch (Exception ex) {
+                        Console.WriteLine($"Error: {ex.Message}");
+                    }
                     break;
 
          
